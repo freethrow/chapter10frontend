@@ -50,6 +50,7 @@ const CarDetails = async ({
                 <Image src={data.picture_url}
                     alt={`${data.brand} ${data.make}`}
                     width={600} height={400}
+                    quality={40}
                     className="object-cover w-full" />
             </div>
             <div className="grid grid-cols-2 gap-3 my-3">
